@@ -214,3 +214,17 @@ footer{
   width: 100%;
   height: 100%;
 }
+
+/* タブレット向けレイアウト */
+@media (max-width: 1000px) {
+  .lessons {
+    width: 50%;
+  }
+}
+
+/* スマートフォン向けレイアウト */
+@media (max-width: 670px) {
+  .lessons {
+    width: 100%;
+  }
+}
